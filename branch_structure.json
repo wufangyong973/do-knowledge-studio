@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/system-theme-support-16864093828494525522",
+    "fix/ai-harness-chat-aria-live-9428604682243907197",
+    "fix/ai-harness-friendlier-errors",
+    "freebuff/529fc59dbc13bb627df6d75e",
+    "integration/land-open-prs",
+    "jules-18373660895656848417-e3d0bfce",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/system-theme-support-16864093828494525522": "main",
+    "fix/ai-harness-chat-aria-live-9428604682243907197": "main",
+    "fix/ai-harness-friendlier-errors": "main",
+    "freebuff/529fc59dbc13bb627df6d75e": "main",
+    "integration/land-open-prs": "main",
+    "jules-18373660895656848417-e3d0bfce": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/system-theme-support-16864093828494525522",
+    "fix/ai-harness-chat-aria-live-9428604682243907197",
+    "fix/ai-harness-friendlier-errors",
+    "freebuff/529fc59dbc13bb627df6d75e",
+    "integration/land-open-prs",
+    "jules-18373660895656848417-e3d0bfce",
+    "origin"
+  ]
+}
