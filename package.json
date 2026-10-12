@@ -9,9 +9,9 @@
   },
   "scripts": {
     "prepare": "./scripts/install-hooks.sh",
-    "dev": "next dev -p 3000 2>&1 | tee dev.log",
-    "build": "next build && node scripts/generate-precache-manifest.mjs",
-    "start": "next start",
+    "dev": "node api.js && next dev -p 3000 2>&1 | tee dev.log",
+    "build": "node api.js && next build && node scripts/generate-precache-manifest.mjs",
+    "start": "node api.js && next start",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit -p tsconfig.app.json",
     "propagate:version": "bash scripts/propagate-version.sh",
